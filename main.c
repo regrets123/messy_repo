@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+#define TWO 2
+
 void println(char* msg) {
     printf(msg);
     printf("\n");
