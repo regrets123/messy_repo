@@ -5,6 +5,10 @@ int main(void) {
     bool isRich = false;
     printf("Hello Forsaken World!");
 
+    if (add(1, 1) == 2) {
+        isRich = true;
+    }
+
     if (rich) {
         printf("Squeeze every drop of value from your workers!");
     }
