@@ -1,5 +1,10 @@
 #include <stdio.h>
 #include <stdbool.h>
+
+void println(char* msg) {
+    printf(msg);
+    printf("\n");
+}
 #include "calc.h"
 
 int main(void) {
@@ -16,6 +21,6 @@ int main(void) {
     else {
         printf("Eat the rich!\n");
     }
-    
+
     return 0;
 }
