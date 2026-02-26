@@ -1,16 +1,21 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+void println(char* msg) {
+    printf(msg);
+    printf("\n");
+}
+
 int main(void) {
     bool isRich = false;
-    printf("Hello Forsaken World!");
+    println("Hello Forsaken World!");
 
-    if (rich) {
-        printf("Squeeze every drop of value from your workers!");
+    if (isRich) {
+        println("Squeeze every drop of value from your workers!");
     }
     else {
-        printf("Eat the rich!");
+        println("Eat the rich!");
     }
-    
+
     return 0;
 }
