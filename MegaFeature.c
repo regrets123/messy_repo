@@ -3,5 +3,4 @@
 void SolveWorldPeace()
 {
     printf("Execute world leaders");
-    
 }
