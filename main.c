@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
+#include "calc.h"
 
 int main(void) {
     bool isRich = false;
@@ -9,7 +10,7 @@ int main(void) {
         isRich = true;
     }
 
-    if (rich) {
+    if (isRich) {
         printf("Squeeze every drop of value from your workers!");
     }
     else {
