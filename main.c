@@ -23,7 +23,7 @@ int main(void) {
         printf("Squeeze every drop of value from your workers!\n");
     }
     else {
-        printf("Eat the rich!\n");
+        printf("Let's escape to the one place that hasn't been corrupted by capitalism... SPACE!\n");
     }
 
     return 0;
