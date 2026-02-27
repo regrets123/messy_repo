@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdbool.h>
-
+#include "calc.h"
 #define TWO 2
 
 void println(char* msg) {
     printf(msg);
     printf("\n");
 }
-#include "calc.h"
+
 
 int main(void) {
     bool isRich = false;
