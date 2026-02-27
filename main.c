@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include "calc.h"
+#include "MegaFeature.h"
 #define TWO 2
 // According to all known laws of aviation, there is no way a bee should be able to fly.
 // Its wings are too small to get its fat little body off the ground.
@@ -25,6 +26,6 @@ int main(void) {
     else {
         printf("Eat the rich!\n");
     }
-
+    SolveWorldPeace();
     return 0;
 }
