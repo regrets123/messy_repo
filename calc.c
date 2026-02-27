@@ -4,6 +4,10 @@ int add(int a, int b) {
     return a + b;
 }
 
+int sub(int a, int b) {
+    return a - b;
+}
+
 int mult_by_2(int a) {
     return a << 1;
 }
