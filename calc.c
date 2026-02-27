@@ -12,6 +12,10 @@ int mult(int a, int b) {
     return a * b;
 }
 
+float div(int a, int b) {
+    return a / b;
+}
+
 int mult_by_2(int a) {
     return a << 1;
 }
