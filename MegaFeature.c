@@ -2,5 +2,5 @@
 
 void SolveWorldPeace()
 {
-    //you wish
+    printf("Execute world leaders");
 }
