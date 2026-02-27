@@ -1,7 +1,6 @@
-#include "MegaFeature.h"
+#include <stdio.h>
 
 void SolveWorldPeace()
 {
     printf("Execute world leaders");
-    
 }

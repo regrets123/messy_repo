@@ -23,3 +23,7 @@ int mult_by_2(int a) {
 int div_by_2_truncate(int a) {
     return a >> 1;
 }
+
+int remainder(int numerator, int denominator){
+  return numerator % denominator;
+}
